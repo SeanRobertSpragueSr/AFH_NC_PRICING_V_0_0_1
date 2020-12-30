@@ -17,7 +17,7 @@ DT_INV=DT_INV[['Stock Number','Days','Year','Model','VIN','Trim',
                'Color DS']]
 
 
-print(DT_INV.head())
+
 Models=list(DT_INV.Model.unique())
 Models.insert(0,'All_Models')
 
