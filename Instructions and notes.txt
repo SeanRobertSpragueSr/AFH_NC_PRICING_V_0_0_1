@@ -1,0 +1,31 @@
+
+#####  This is froma different directoyr but steps are same jst change paths ###
+
+From CMD:
+1. cd "C:\Users\ssprague\Documents\GitHub\NC_PRICING_APP"
+2. python -m venv nc_papp #created a virtual enviroment for python
+3. nc_papp\scripts\activate #activates enviroment
+4. python PRICING_PAGE.py #runs the script but...
+5. streamlit run "C:\Users\ssprague\Documents\GitHub\NC_PRICING_APP\PRICING_PAGE.py" runs app locally
+
+
+6. pip freeze # gives you a list of dependancies
+
+---changed VE to nc_p_app
+
+##################################################################################
+
+1.	Each day, save a csv version of inventory to this location 
+
+"C:\Users\ssprague\Documents\GitHub\AFH_NC_PRICING_V_0_0_1\DT_INV.csv"
+
+2.	Push to Git_Hub repository
+
+
+3.  If functionality changes and or if new libraires are added to script file, rerun pip freeze 
+and update  requrements @ "C:\Users\ssprague\Documents\GitHub\AFH_NC_PRICING_V_0_0_1\requirements.txt"
+
+#################################  OVERVIEW      ##################
+
+TASK 1: Using Streamlit, create a webpage hosted on Heruko to diplay pricing info for everyone to use.
+TASK 2: BUILD OUT FUNCTIONALITY, i.e. Map of similar vehicles with key statrs.. turn, daysupply, number available etc
