@@ -7,8 +7,7 @@ import pandas as pd
 def load_NC_INV():
     df=pd.read_csv("https://raw.githubusercontent.com/SeanRobertSpragueSr/AFH_NC_PRICING_V_0_0_1/main/DT_INV.csv")
     return df
-#"C:\Users\ssprague\Documents\GitHub\NC_PRICING_APP\DT_INV.csv"
-#"C:\Users\ssprague\Documents\GitHub\NC_PRICING_APP\NEW v2 - Master_Copy_Not_For_Distribution.xlsx"
+
 
 st.title('Current New Car Inventory')
 
